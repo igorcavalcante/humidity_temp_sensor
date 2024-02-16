@@ -1,0 +1,7 @@
+menu "DHT22 custom config"
+    config ESP_DHT_PIN
+        int "IO pin"
+        default 18
+        help
+            "IO pin connect to DHT"
+endmenu

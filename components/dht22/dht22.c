@@ -44,11 +44,11 @@ esp_err_t ht_read(float *temperature, float *humidity) {
         return ESP_FAIL;
     }
 
-    enlapsed = pulseIn(10000, 1);
+    /* enlapsed = pulseIn(10000, 1);
     if (enlapsed < 0) {
         ESP_LOGE(TAG, "error trying to read the 2nd pulse");
         return ESP_FAIL;
-    }
+    } */
 
     uint8_t bitIdx = 7;
     uint8_t byteIdx = 0;

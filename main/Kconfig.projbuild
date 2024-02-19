@@ -1,0 +1,31 @@
+menu "MQTT custom config"
+    config ESP_MQTT_TOPIC
+        string "mqtt topic"
+        default "/HOME/HT_SENSOR"
+        help
+            Topic to send data throw mqtt
+
+    config ESP_MQTT_PASS
+        string "mqtt pass"
+        default "my_mqtt_pass"
+        help
+            "mqtt server password"
+
+    config ESP_MQTT_CLIENT_ID
+        string "mqtt client id"
+        default "mqtt_client_id"
+        help
+            "mqtt client id"
+    
+    config ESP_MQTT_URI
+        string "mqtt uri"
+        default "mqtt_uri"
+        help
+            "mqtt server uri"
+
+    config ESP_MQTT_USERNAME
+        string "mqtt username"
+        default "mqtt_username"
+        help
+            "mqtt server username"
+endmenu

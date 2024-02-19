@@ -9,10 +9,13 @@
 #include "nvs_flash.h"
 #include "wifi.h"
 #include "MQTT.h"
-#include "general.h"
 
 #define TAG "HUMIDITY"
 EventGroupHandle_t conn_state;
+
+void ht_read_task(void *args);
+void setup(void);
+void app_main(void);
 
 void ht_read_task(void *args) {
   ESP_LOGI(TAG, "init read task");

@@ -1,6 +1,6 @@
 #include "MQTT.h"
 #include "freertos/projdefs.h"
-#include "general.h"
+#include "wifi.h"
 
 #define TAG "MQTT"
 #define TOPIC CONFIG_ESP_MQTT_TOPIC

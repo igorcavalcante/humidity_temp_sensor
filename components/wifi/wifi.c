@@ -13,7 +13,6 @@
 #include "lwip/sys.h"
 #include "nvs_flash.h"
 #include <string.h>
-#include "general.h"
 
 #define ESP_WIFI_SSID CONFIG_ESP_WIFI_SSID
 #define ESP_WIFI_PASS CONFIG_ESP_WIFI_PASSWORD
